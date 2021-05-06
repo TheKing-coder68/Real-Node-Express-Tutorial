@@ -1,13 +1,11 @@
-const amount=10;
+// Modules
+const john = "John"
+const peter = "Peter"
 
-if(amount<10)
-{
-	console.log("small number")
-}
-else{
-	console.log("big number")
+const sayHi = (name) => {
+	console.log('Hello there ${name}');
 }
 
-console.log("Hello World")
-
-console.log(process)
+sayHi('King')
+sayHi(john)
+sayHi(peter)
