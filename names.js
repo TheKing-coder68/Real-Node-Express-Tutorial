@@ -4,4 +4,4 @@ const secret="SECRET KEY"
 const john = "John"
 const peter = "Peter"
 
-mode.exports = {john,peter}
+module.exports = {john,peter}
