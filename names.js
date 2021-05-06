@@ -1,4 +1,7 @@
+//local
+const secret="SECRET KEY"
+//Shared
 const john = "John"
 const peter = "Peter"
 
-console.log(module)
+mode.exports = {john,peter}

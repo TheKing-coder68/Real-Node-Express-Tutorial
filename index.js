@@ -1,14 +1,7 @@
 // Modules
-const john = "John"
-const peter = "Peter"
 
-const sayHi = (name) => {
-	// The guy used ` not ' or "
-	console.log(`Hello there ${name}`);
-	
-	// You can also do...
-	// console.log('Hello there ' + name);
-}
+const names = require('./names');
+console.log(names)
 
 sayHi('King')
 sayHi(john)
