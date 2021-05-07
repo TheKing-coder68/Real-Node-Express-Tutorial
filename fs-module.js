@@ -1,6 +1,8 @@
 //FS Module
 //This:
 const {readFileSync, writeFileSync} = require('fs');
+console.log("start");
+
 // Is the same as these:
 // const fs= require('fs');
 // fs.readFIleSYnc;
@@ -15,3 +17,6 @@ console.log(first,second)
 // If there was already text in the file, the text will be overwritten by Node
 // THe flag at the ending allows Node to just add the text to the result-sync.txt file
 writeFileSync('./content/result-sync.txt', `Here is the result: ${first}. ${second}`, { flag : 'a' }) 
+
+console.log("Done with the task")
+sonsole.log("starting the next one.")
